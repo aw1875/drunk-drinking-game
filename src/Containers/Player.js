@@ -1,5 +1,4 @@
 import React from 'react'
-import Players from './Players'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMinusCircle } from '@fortawesome/free-solid-svg-icons'

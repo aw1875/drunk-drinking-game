@@ -1,6 +1,5 @@
 import React from 'react'
 import Player from './Player'
-import MainContent from './MainContent'
 
 class Players extends React.Component {
     constructor(props) {
