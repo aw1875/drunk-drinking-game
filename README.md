@@ -14,4 +14,4 @@ That should get all the node modules installed, this could take some time so go 
 $ npm start
 ```
 
-That's it, a localhost tab should open up on port 3000 and you're good to play! Grab you friends, hop in a call together, and enjoy!
+That's it, a localhost tab should open up on port 3000 and you're good to play! Grab your friends, hop in a call together, and enjoy!
