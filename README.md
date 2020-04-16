@@ -1,6 +1,6 @@
 # **🍻 Drunk! The Crazy Drinking**
 
-After seeing many people posting pictures of their drinking game boards on social media during the COVID19 pandemic, I decided to take one friends designs and convert it into a web based game that anyone can play. If you don't want to go through all the trouble of setting the project up yourself, you can find a live vesion [on my website](http://drunk.cashcollege)
+After seeing many people posting pictures of their drinking game boards on social media during the COVID19 pandemic, I decided to take one friends designs and convert it into a web based game that anyone can play. If you don't want to go through all the trouble of setting the project up yourself, you can find a live vesion [on my website](http://drunk.cashcollege.me)
 
 ## **Installation**
 [NodeJS](https://nodejs.org/en/download/) is required. That is all!
