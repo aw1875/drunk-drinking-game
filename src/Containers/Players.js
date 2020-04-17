@@ -30,16 +30,15 @@ class Players extends React.Component {
         this.setState({
             name: ""
         })
-    }
-    
+    }    
 
     render() {
         return (
             <div className="players">
                 <h1>Players</h1>
                 <form onSubmit={this.handleSubmit}>
-                    <input name="name" value={this.state.name} onChange={this.handleChange} placeholder="Players Name" autocomplete="off"/>
-                    <button onClick={this.handleSubmit}>Add Player</button>
+                    <input name="name" value={this.state.name} onChange={this.handleChange} placeholder="Players Name" autocomplete="off" required/>
+                    <button type="submit">Add Player</button>
                 </form>
                 {this.props.data.players.map(player => (
                     <Player name={player.name} location={player.location} turn={player.turn}/>

@@ -10,6 +10,9 @@ class GameOver extends React.Component {
         const restart = <FontAwesomeIcon icon={faRedo}/>
         return (
             <div className="main">
+                <div className="gameOverMessage">
+                    <h1>{this.props.currentPlayer} wins!</h1>
+                </div>
                 <div className="mainContent">
                     <div className='card'>
                         <img id="cardImage" src={this.props.image} alt={this.props.text}/>
@@ -17,6 +20,7 @@ class GameOver extends React.Component {
                     </div>
                 </div>
             </div>
+            
         )
     }
 }
