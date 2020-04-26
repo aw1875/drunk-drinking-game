@@ -1,12 +1,12 @@
 const cardsData = [ 
     {
         text: "Shot!",
-        rule: "",
+        rule: "Take a shot",
         image: "./img/shot.png"
     }, 
     {
         text: "Truth or Dare",
-        rule: "",
+        rule: "The person that landed on this card can ask anyone they choose",
         image: "./img/t-or-d.png"
     }, 
     {
@@ -21,7 +21,7 @@ const cardsData = [
     }, 
     {
         text: "Answer any question",
-        rule: "",
+        rule: "The person that landed on this is in the hotseat. Everyone else gets to ask them a question!",
         image: "./img/answer-any-question.png"
     }, 
     {
@@ -31,12 +31,12 @@ const cardsData = [
     }, 
     {
         text: "Truth",
-        rule: "",
+        rule: "The person that landed on this gets to ask anyone they choose.",
         image: "./img/truth.png"
     }, 
     {
         text: "Dont judge me, but...",
-        rule: "",
+        rule: "What's your hot take?",
         image: "./img/dont-judge.png"
     }, 
     {
@@ -46,7 +46,7 @@ const cardsData = [
     }, 
     {
         text: "What are the odds?",
-        rule: "",
+        rule: "Ask anyone you'd like. You can try to bargain them down by betting drinks. If they answer 1/2, and you get it wrong, you automatically do what you asked!",
         image: "./img/odds.png"
     }, 
     {
@@ -56,7 +56,7 @@ const cardsData = [
     }, 
     {
         text: "Biggest bitch",
-        rule: "",
+        rule: "Biggest bitch drinks!",
         image: "./img/biggest-bitch.png"
     }, 
     {
@@ -66,17 +66,17 @@ const cardsData = [
     }, 
     {
         text: "Chicks",
-        rule: "",
+        rule: "Girls drink!",
         image: "./img/chicks.png"
     }, 
     {
         text: "Dudes",
-        rule: "",
+        rule: "Guys drinK!",
         image: "./img/dudes.png"
     }, 
     {
         text: "Roast your neighbor",
-        rule: "",
+        rule: "Roast their existence. The person above and below you are your neighbors",
         image: "./img/roast-your-neighbor.png"
     }, 
     {
@@ -100,18 +100,168 @@ const cardsData = [
         image: "./img/text-someone-you-hate.png"
     }, 
     {
-        text: "Never have I ever",
-        rule: "",
-        image: "./img/never-have-i-ever.png"
+        text: "You're a bitch if you haven't",
+        rule: "If you haven't done what is said, you drink.",
+        image: "./img/bitch if you havent.png"
+    },     
+    {
+        text: "Animal Sounds",
+        rule: "Make animal sounds for a whole round",
+        image: "./img/animal sounds.png"
     }, 
+    {
+        text: "Athletes",
+        rule: "",
+        image: "./img/athletes.png"
+    },
+    {
+        text: "Blue Eyes",
+        rule: "",
+        image: "./img/blue eyes.png"
+    }, 
+    {
+        text: "Brown Eyes",
+        rule: "",
+        image: "./img/brown eyes.png"
+    }, 
+    {
+        text: "Categories",
+        rule: "",
+        image: "./img/categories.png"
+    }, 
+    {
+        text: "Confession",
+        rule: "",
+        image: "./img/confession.png"
+    }, 
+    {
+        text: "Dare",
+        rule: "",
+        image: "./img/dare.png"
+    },
+    {
+        text: "Dance",
+        rule: "Dance for a whole round",
+        image: "./img/dance.png"
+    }, 
+    {
+        text: "Drunk call an ex",
+        rule: "",
+        image: "./img/drunk call ex.png"
+    }, 
+    {
+        text: "Drunk story",
+        rule: "",
+        image: "./img/drunk story.png"
+    }, 
+    {
+        text: "Snapchat Roulette",
+        rule: "Take a picture of your face with the caption \"I have something I need to tell you...\", then you scroll through you friends list until someone says stop. You must send it to that person!",
+        image: "./img/snap-roulette.png"
+    }, 
+    {
+        text: "Virgin Story",
+        rule: "Tell the story about how you lost your virginity",
+        image: "./img/first.png"
+    },
+    {
+        text: "Green Eyes",
+        rule: "",
+        image: "./img/green eyes.png"
+    }, 
+    {
+        text: "Highest score drink x5",
+        rule: "",
+        image: "./img/highest.png"
+    }, 
+    {
+        text: "Most likely to",
+        rule: "You make it up",
+        image: "./img/most likely to.png"
+    }, 
+    {
+        text: "Least drunk",
+        rule: "",
+        image: "./img/least-drunk.png"
+    }, 
+    {
+        text: "Nose Goes",
+        rule: "Last person to touch their nose drinks",
+        image: "./img/Nose Goes.png"
+    },
+    {
+        text: "Piercings",
+        rule: "",
+        image: "./img/piercings.png"
+    }, 
+    {
+        text: "Roll Again",
+        rule: "",
+        image: "./img/roll again.png"
+    }, 
+    {
+        text: "Sex Charades",
+        rule: "Act out your favourite sex position",
+        image: "./img/sex charades.png"
+    }, 
+    {
+        text: "Single!",
+        rule: "",
+        image: "./img/single.png"
+    }, 
+    {
+        text: "Best Smile",
+        rule: "",
+        image: "./img/smile.png"
+    },
+    {
+        text: "Snap or text your crush",
+        rule: "",
+        image: "./img/snap-your-crush.png"
+    }, 
+    {
+        text: "Taken",
+        rule: "",
+        image: "./img/taken.png"
+    }, 
+    {
+        text: "Tattoo",
+        rule: "If you have a tattoo, drink!",
+        image: "./img/tatto.png"
+    }, 
+    {
+        text: "Make a Toast",
+        rule: "",
+        image: "./img/toast.png"
+    },
+    {
+        text: "Two truths and a lie",
+        rule: "",
+        image: "./img/two truths.png"
+    }, 
+    {
+        text: "Waterfall",
+        rule: "",
+        image: "./img/waterfall.png"
+    }, 
+    {
+        text: "Would you rather?",
+        rule: "",
+        image: "./img/would you rather.png"
+    }, 
+    {
+        text: "Youngest and oldest drink",
+        rule: "",
+        image: "./img/youngest and oldest.png"
+    },
     {
         text: "Shot!",
-        rule: "",
+        rule: "Take a shot",
         image: "./img/shot.png"
     }, 
     {
         text: "Truth or Dare",
-        rule: "",
+        rule: "The person that landed on this card can ask anyone they choose",
         image: "./img/t-or-d.png"
     }, 
     {
@@ -126,7 +276,7 @@ const cardsData = [
     }, 
     {
         text: "Answer any question",
-        rule: "",
+        rule: "The person that landed on this is in the hotseat. Everyone else gets to ask them a question!",
         image: "./img/answer-any-question.png"
     }, 
     {
@@ -136,12 +286,12 @@ const cardsData = [
     }, 
     {
         text: "Truth",
-        rule: "",
+        rule: "The person that landed on this gets to ask anyone they choose.",
         image: "./img/truth.png"
     }, 
     {
         text: "Dont judge me, but...",
-        rule: "",
+        rule: "What's your hot take?",
         image: "./img/dont-judge.png"
     }, 
     {
@@ -151,7 +301,7 @@ const cardsData = [
     }, 
     {
         text: "What are the odds?",
-        rule: "",
+        rule: "Ask anyone you'd like. You can try to bargain them down by betting drinks. If they answer 1/2, and you get it wrong, you automatically do what you asked!",
         image: "./img/odds.png"
     }, 
     {
@@ -161,7 +311,7 @@ const cardsData = [
     }, 
     {
         text: "Biggest bitch",
-        rule: "",
+        rule: "Biggest bitch drinks!",
         image: "./img/biggest-bitch.png"
     }, 
     {
@@ -171,17 +321,17 @@ const cardsData = [
     }, 
     {
         text: "Chicks",
-        rule: "",
+        rule: "Girls drink!",
         image: "./img/chicks.png"
     }, 
     {
         text: "Dudes",
-        rule: "",
+        rule: "Guys drinK!",
         image: "./img/dudes.png"
     }, 
     {
         text: "Roast your neighbor",
-        rule: "",
+        rule: "Roast their existence. The person above and below you are your neighbors",
         image: "./img/roast-your-neighbor.png"
     }, 
     {
@@ -205,99 +355,119 @@ const cardsData = [
         image: "./img/text-someone-you-hate.png"
     }, 
     {
-        text: "Never have I ever",
-        rule: "",
-        image: "./img/never-have-i-ever.png"
+        text: "You're a bitch if you haven't",
+        rule: "If you haven't done what is said, you drink.",
+        image: "./img/bitch if you havent.png"
+    },     
+    {
+        text: "Animal Sounds",
+        rule: "Make animal sounds for a whole round",
+        image: "./img/animal sounds.png"
     }, 
     {
-        text: "Shot!",
+        text: "Athletes",
         rule: "",
-        image: "./img/shot.png"
+        image: "./img/athletes.png"
+    },
+    {
+        text: "Blue Eyes",
+        rule: "",
+        image: "./img/blue eyes.png"
     }, 
     {
-        text: "Truth or Dare",
+        text: "Brown Eyes",
         rule: "",
-        image: "./img/t-or-d.png"
+        image: "./img/brown eyes.png"
     }, 
     {
-        text: "Compliment the boys",
+        text: "Categories",
         rule: "",
-        image: "./img/compliment-the-boys.png"
+        image: "./img/categories.png"
     }, 
     {
-        text: "Fuck, Marry, Kill. Go!",
+        text: "Confession",
         rule: "",
-        image: "./img/fuck-marry-kill.png"
+        image: "./img/confession.png"
     }, 
     {
-        text: "Answer any question",
+        text: "Dare",
         rule: "",
-        image: "./img/answer-any-question.png"
+        image: "./img/dare.png"
+    },
+    {
+        text: "Dance",
+        rule: "Dance for a whole round",
+        image: "./img/dance.png"
     }, 
     {
-        text: "Best personality?",
+        text: "Drunk call an ex",
         rule: "",
-        image: "./img/best-personality.png"
+        image: "./img/drunk call ex.png"
     }, 
     {
-        text: "Truth",
+        text: "Drunk story",
         rule: "",
-        image: "./img/truth.png"
+        image: "./img/drunk story.png"
     }, 
     {
-        text: "Dont judge me, but...",
-        rule: "",
-        image: "./img/dont-judge.png"
+        text: "Snapchat Roulette",
+        rule: "Take a picture of your face with the caption \"I have something I need to tell you...\", then you scroll through you friends list until someone says stop. You must send it to that person!",
+        image: "./img/snap-roulette.png"
     }, 
     {
-        text: "Choose someone to drink",
+        text: "Virgin Story",
+        rule: "Tell the story about how you lost your virginity",
+        image: "./img/first.png"
+    },
+    {
+        text: "Green Eyes",
         rule: "",
-        image: "./img/choose-someone-to-drink.png"
+        image: "./img/green eyes.png"
     }, 
     {
-        text: "What are the odds?",
+        text: "Highest score drink x5",
         rule: "",
-        image: "./img/odds.png"
+        image: "./img/highest.png"
     }, 
     {
-        text: "Group shots!",
-        rule: "",
-        image: "./img/group-shots.png"
+        text: "Most likely to",
+        rule: "You make it up",
+        image: "./img/most likely to.png"
     }, 
     {
-        text: "Biggest bitch",
+        text: "Least drunk",
         rule: "",
-        image: "./img/biggest-bitch.png"
+        image: "./img/least-drunk.png"
     }, 
     {
-        text: "Compliment the girls",
+        text: "Nose Goes",
+        rule: "Last person to touch their nose drinks",
+        image: "./img/Nose Goes.png"
+    },
+    {
+        text: "Piercings",
         rule: "",
-        image: "./img/compliment-the-girls.png"
+        image: "./img/piercings.png"
     }, 
     {
-        text: "Chicks",
+        text: "Roll Again",
         rule: "",
-        image: "./img/chicks.png"
+        image: "./img/roll again.png"
     }, 
     {
-        text: "Dudes",
-        rule: "",
-        image: "./img/dudes.png"
+        text: "Sex Charades",
+        rule: "Act out your favourite sex position",
+        image: "./img/sex charades.png"
     }, 
     {
-        text: "Roast your neighbor",
+        text: "Single!",
         rule: "",
-        image: "./img/roast-your-neighbor.png"
+        image: "./img/single.png"
     }, 
     {
-        text: "Finish your drink!",
+        text: "Best Smile",
         rule: "",
-        image: "./img/finish.png"
-    }, 
-    {
-        text: "Neighbors drink",
-        rule: "",
-        image: "./img/neighbors.png"
+        image: "./img/smile.png"
     },
     {
         text: "Snap or text your crush",
@@ -305,294 +475,41 @@ const cardsData = [
         image: "./img/snap-your-crush.png"
     }, 
     {
-        text: "Text someone you hate",
+        text: "Taken",
         rule: "",
-        image: "./img/text-someone-you-hate.png"
+        image: "./img/taken.png"
     }, 
     {
-        text: "Never have I ever",
-        rule: "",
-        image: "./img/never-have-i-ever.png"
+        text: "Tattoo",
+        rule: "If you have a tattoo, drink!",
+        image: "./img/tatto.png"
     }, 
     {
-        text: "Shot!",
+        text: "Make a Toast",
         rule: "",
-        image: "./img/shot.png"
-    }, 
-    {
-        text: "Truth or Dare",
-        rule: "",
-        image: "./img/t-or-d.png"
-    }, 
-    {
-        text: "Compliment the boys",
-        rule: "",
-        image: "./img/compliment-the-boys.png"
-    }, 
-    {
-        text: "Fuck, Marry, Kill. Go!",
-        rule: "",
-        image: "./img/fuck-marry-kill.png"
-    }, 
-    {
-        text: "Answer any question",
-        rule: "",
-        image: "./img/answer-any-question.png"
-    }, 
-    {
-        text: "Best personality?",
-        rule: "",
-        image: "./img/best-personality.png"
-    }, 
-    {
-        text: "Truth",
-        rule: "",
-        image: "./img/truth.png"
-    }, 
-    {
-        text: "Dont judge me, but...",
-        rule: "",
-        image: "./img/dont-judge.png"
-    }, 
-    {
-        text: "Choose someone to drink",
-        rule: "",
-        image: "./img/choose-someone-to-drink.png"
-    }, 
-    {
-        text: "What are the odds?",
-        rule: "",
-        image: "./img/odds.png"
-    }, 
-    {
-        text: "Group shots!",
-        rule: "",
-        image: "./img/group-shots.png"
-    }, 
-    {
-        text: "Biggest bitch",
-        rule: "",
-        image: "./img/biggest-bitch.png"
-    }, 
-    {
-        text: "Compliment the girls",
-        rule: "",
-        image: "./img/compliment-the-girls.png"
-    }, 
-    {
-        text: "Chicks",
-        rule: "",
-        image: "./img/chicks.png"
-    }, 
-    {
-        text: "Dudes",
-        rule: "",
-        image: "./img/dudes.png"
-    }, 
-    {
-        text: "Roast your neighbor",
-        rule: "",
-        image: "./img/roast-your-neighbor.png"
-    }, 
-    {
-        text: "Finish your drink!",
-        rule: "",
-        image: "./img/finish.png"
-    }, 
-    {
-        text: "Neighbors drink",
-        rule: "",
-        image: "./img/neighbors.png"
+        image: "./img/toast.png"
     },
     {
-        text: "Snap or text your crush",
+        text: "Two truths and a lie",
         rule: "",
-        image: "./img/snap-your-crush.png"
+        image: "./img/two truths.png"
     }, 
     {
-        text: "Text someone you hate",
+        text: "Waterfall",
         rule: "",
-        image: "./img/text-someone-you-hate.png"
+        image: "./img/waterfall.png"
     }, 
     {
-        text: "Never have I ever",
+        text: "Would you rather?",
         rule: "",
-        image: "./img/never-have-i-ever.png"
+        image: "./img/would you rather.png"
     }, 
     {
-        text: "Shot!",
+        text: "Youngest and oldest drink",
         rule: "",
-        image: "./img/shot.png"
-    }, 
-    {
-        text: "Truth or Dare",
-        rule: "",
-        image: "./img/t-or-d.png"
-    }, 
-    {
-        text: "Compliment the boys",
-        rule: "",
-        image: "./img/compliment-the-boys.png"
-    }, 
-    {
-        text: "Fuck, Marry, Kill. Go!",
-        rule: "",
-        image: "./img/fuck-marry-kill.png"
-    }, 
-    {
-        text: "Answer any question",
-        rule: "",
-        image: "./img/answer-any-question.png"
-    }, 
-    {
-        text: "Best personality?",
-        rule: "",
-        image: "./img/best-personality.png"
-    }, 
-    {
-        text: "Truth",
-        rule: "",
-        image: "./img/truth.png"
-    }, 
-    {
-        text: "Dont judge me, but...",
-        rule: "",
-        image: "./img/dont-judge.png"
-    }, 
-    {
-        text: "Choose someone to drink",
-        rule: "",
-        image: "./img/choose-someone-to-drink.png"
-    }, 
-    {
-        text: "What are the odds?",
-        rule: "",
-        image: "./img/odds.png"
-    }, 
-    {
-        text: "Group shots!",
-        rule: "",
-        image: "./img/group-shots.png"
-    }, 
-    {
-        text: "Biggest bitch",
-        rule: "",
-        image: "./img/biggest-bitch.png"
-    }, 
-    {
-        text: "Compliment the girls",
-        rule: "",
-        image: "./img/compliment-the-girls.png"
-    }, 
-    {
-        text: "Chicks",
-        rule: "",
-        image: "./img/chicks.png"
-    }, 
-    {
-        text: "Dudes",
-        rule: "",
-        image: "./img/dudes.png"
-    }, 
-    {
-        text: "Roast your neighbor",
-        rule: "",
-        image: "./img/roast-your-neighbor.png"
-    }, 
-    {
-        text: "Finish your drink!",
-        rule: "",
-        image: "./img/finish.png"
-    }, 
-    {
-        text: "Neighbors drink",
-        rule: "",
-        image: "./img/neighbors.png"
-    },
-    {
-        text: "Snap or text your crush",
-        rule: "",
-        image: "./img/snap-your-crush.png"
-    }, 
-    {
-        text: "Text someone you hate",
-        rule: "",
-        image: "./img/text-someone-you-hate.png"
-    }, 
-    {
-        text: "Never have I ever",
-        rule: "",
-        image: "./img/never-have-i-ever.png"
+        image: "./img/youngest and oldest.png"
     },
     
-    
-    
-    
-    
-    
-    
-    
-    
-    // {
-    //     text: "Nose goes",
-    //     rule: "",
-    //     image: "./img/compliment-the-boys.png"
-    // }, 
-    // {
-    //     text: "Drunk call your ex",
-    //     rule: "",
-    //     image: "./img/fuck-marry-kill.png"
-    // }, 
-    // {
-    //     text: "Dare",
-    //     rule: "",
-    //     image: "./img/answer-any-question.png"
-    // }, 
-    // {
-    //     text: "Would you rather?",
-    //     rule: "",
-    //     image: "./img/best-personality.png"
-    // }, 
-    // {
-    //     text: "Most likely to",
-    //     rule: "",
-    //     image: "./img/truth.png"
-    // }, 
-    // {
-    //     text: "Least drunk",
-    //     rule: "",
-    //     image: "./img/dont-judge.png"
-    // }, 
-    // {
-    //     text: "Two truths and a lie",
-    //     rule: "",
-    //     image: "./img/choose-someone-to-drink.png"
-    // }, 
-    // {
-    //     text: "Post a drunk story",
-    //     rule: "",
-    //     image: "./img/shot.png"
-    // }, 
-    // {
-    //     text: "Brown eyes",
-    //     rule: "",
-    //     image: "./img/t-or-d.png"
-    // }, 
-    // {
-    //     text: "Blue eyes",
-    //     rule: "",
-    //     image: "./img/compliment-the-boys.png"
-    // }, 
-    // {
-    //     text: "Green eyes",
-    //     rule: "",
-    //     image: "./img/fuck-marry-kill.png"
-    // }, 
-    // {
-    //     text: "Roll again",
-    //     rule: "",
-    //     image: "./img/answer-any-question.png"
-    // }
 ]
 
 export default cardsData

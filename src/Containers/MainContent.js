@@ -19,7 +19,7 @@ import Card from './Card'
 import cardsData from '../data/cardsData'
 import GameOver from './GameOver'
 
-const cardsComponents = shuffle(cardsData.map(card => <Card text={card.text} rule={card.rule} image={card.image}/>))
+const cardsComponents = shuffle(cardsData.map(card => <Card text={card.text} rule={card.rule} image={card.image} />))
 
 class MainContent extends React.Component {
     constructor(props) {
@@ -120,18 +120,22 @@ class MainContent extends React.Component {
                 {/* Create Player Components based on players state list */}
                 <Players data={{getPlayers: this.getPlayers.bind(this), players: this.state.players}} />
                 
-                <Locations players={this.state.players} length={cardsComponents.length} />
                 {/* Create a label for who's turn it is if there is a value set (once the game is started) */}
                 {this.state.currentPlayer !== "" && this.state.currentRole < cardsComponents.length ? <div className="currentName"><h1>It's {this.state.currentPlayer}'s turn</h1></div> : null}
                 
                 {/* Start Card/Creating the Card Components and display the appropriate one based on what the user should be seeing */}
-                {this.state.currentPlayer === "" || this.state.currentRole === 0? <StartGame image="./img/start.png" text="Start" data={{start:this.handleStart.bind(this)}} /> : cardsComponents[this.state.currentRole]}
+                {this.state.currentRole === 0 ? this.state.currentPlayer === ""  ? <StartGame image="./img/start.png" text="Start" og={true} data={{start:this.handleStart.bind(this)}} /> : <StartGame image="./img/start.png" text="Start" og={false} data={{start:this.handleStart.bind(this)}} />
+                : cardsComponents[this.state.currentRole]}
+                
+                <div className="dieContainer">
+                    {/* Instantiate a die from ReactDie if game has started */}
+                    {this.state.currentRole < cardsComponents.length && this.state.currentPlayer !== "" ? <div id="die"><ReactDice numDice={1} outline={true} outlineColor={"#000"} faceColor={"#fff"} dotColor={"#000"} dieSize={100} rollTime={1} rollDone={this.rollDoneCallback} ref={dice => this.reactDice = dice} /></div> : null}                 
+                </div>
+
+                <Locations players={this.state.players} length={cardsComponents.length} />
                 
                 {/* Next Button. Show only once the game starts and remove once one user makes it to the of the game. At that point create a GameOver Component and display it. */}
                 {this.state.currentRole < cardsComponents.length ? this.state.currentPlayer !== "" ? <a id="nextButton" onClick={this.toggleTurn}>{next}</a> : null : <GameOver image="./img/game-over.png" text="Game Over" currentPlayer={this.state.currentPlayer}/>}    
-                
-                {/* Instantiate a die from ReactDie if game has started */}
-                {this.state.currentRole < cardsComponents.length && this.state.currentPlayer !== "" ? <div id="die"><ReactDice numDice={1} outline={true} outlineColor={"#000"} faceColor={"#fff"} dotColor={"#000"} dieSize={100} rollTime={1} rollDone={this.rollDoneCallback} ref={dice => this.reactDice = dice} /></div> : null} 
             </div>
         )
     }

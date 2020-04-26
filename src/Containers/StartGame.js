@@ -13,12 +13,11 @@ class StartGame extends React.Component {
                 <div className="mainContent">
                     <div className='card'>
                         <img id="cardImage" src={this.props.image} alt={this.props.text}/>
-                        <a id="startButton" onClick={this.props.data.start}>{start}</a>
+                        {this.props.og === true ? <a id="startButton" onClick={this.props.data.start}>{start}</a> : null}
                     </div>
                 </div>
             </div>
         )
     }
 }
-
 export default StartGame

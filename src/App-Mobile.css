@@ -1,4 +1,4 @@
-@media only screen and (min-width: 951px) {
+@media only screen and (max-width: 950px) {
 
     @import url('https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,600,700,800&display=swap');
 
@@ -17,16 +17,18 @@
 
     .main {
         /* position: absolute; */
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 100vh; */
     }
 
     .mainContent {
-        width: 50%;
+        width: 90vw;
+        position: relative;
+        left: 5%;
         text-align: center;
         color: #fff;
     }
@@ -37,27 +39,12 @@
         box-shadow: 3px 4px rgb(31, 31, 31);
     }
 
-    .rule h1 {
-        font-family: 'Manrope', sans-serif;
-        background: red;
-        position: absolute;
-        border: none;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 100%;
-        z-index: 99;
-        text-align: center;
-        font-size: 16px;
-        line-height: 50;
-    }
-
     .currentName {
-        position: absolute;
+        position: relative;
         width: 100%;
         background: transparent;
         text-align: center;
-        margin-top: 100px;
+        margin-bottom: 10px;
     }
 
     .currentName h1 {
@@ -77,29 +64,29 @@
     }
 
     #nextButton {
-        font-size: 56px;
+        font-size: 50px;
         color: #fff;
         position: absolute;
-        bottom: 47%;
-        left: 70%;
+        bottom: 45%;
+        right: 5%;
         background: transparent;
     }
 
     #restartButton {
         font-size: 50px;
         color: #fff;
-        position: absolute;
+        position: relative;
         bottom: 35%;
         left: 49%;
         background: transparent;
     }
 
     #startButton {
-        font-size: 72px;
-        color: #fff;
+        font-size: 84px;
+        color:  #3C91E6;
         position: absolute;
-        bottom: 35%;
-        left: 48%;
+        top: 30%;
+        right: 40%;
         background: transparent;
     }
 
@@ -118,24 +105,25 @@
     }
 
     .players {
-        min-height: 95vh;
-        width: 20%;
+        min-height: 200px;
+        width: 90vw;
         text-align: center;
-        position: absolute;
-        margin: 20px;
+        position: relative;
+        left: 5%;
+        /* display: flex; */
+        margin-bottom: 20px;
         border-radius: 15px;
         /* margin-left: 10px; */
         background: #FA824C;
     }
 
     .locations {
-        min-height: 95vh;
-        width: 20%;
+        min-height: 200px;
+        width: 90vw;
         text-align: center;
-        position: absolute;
-        right: 0%;
-        top: 0%;
-        margin: 20px;
+        position: relative;
+        left: 5%;
+        margin-bottom: 20px;
         border-radius: 15px;
         background: rgb(124, 167, 25);
     }
@@ -151,7 +139,7 @@
     }
 
     .locations h1 {
-        margin: 50px 0px 130px 0px;
+        margin: 50px 0px 10px 0px;
         color: #FAFFFD;
         font-family: 'Manrope', sans-serif;
         font-weight: 900;
@@ -224,10 +212,16 @@
         /* margin-bottom: 2px; */
     }
 
+    .dieContainer {
+        width: 100%;
+        background: transparent;
+        text-align: center;
+    }
+
     #die {
-        position: absolute;
-        left: 46%;
-        bottom: 4%;
+        /* position: relative;
+        left: 38%;
+        bottom: 4%; */
         background: transparent;
     }
 
@@ -247,86 +241,5 @@
         font-weight: 900;
         font-size: 50px;
         color: #FA824C;
-    }
-
-
-    @media only screen and (max-width: 1370px) {
-        #nextButton {
-            font-size: 48px;
-            bottom: 47%;
-            left: 70%;
-        }
-        
-        #restartButton {
-            font-size: 42px;
-            bottom: 35%;
-            left: 49%;
-        }
-
-        #startButton {
-            font-size: 42px;
-            bottom: 35%;
-            left: 49%;
-        }
-    }
-
-    @media only screen and (max-width: 1075px) {
-        #nextButton {
-            font-size: 40px;
-            bottom: 47%;
-            left: 70%;
-        }
-        
-        #restartButton {
-            font-size: 36px;
-            bottom: 40%;
-            left: 49%;
-        }
-
-        #startButton {
-            font-size: 36px;
-            bottom: 40%;
-            left: 49%;
-        }
-    }
-
-    @media only screen and (max-width: 880px) {
-        #nextButton {
-            font-size: 32px;
-            bottom: 47%;
-            left: 70%;
-        }
-        
-        #restartButton {
-            font-size: 36px;
-            bottom: 40%;
-            left: 49%;
-        }
-
-        #startButton {
-            font-size: 36px;
-            bottom: 40%;
-            left: 49%;
-        }
-    }
-
-    @media only screen and (max-width: 680px) {
-        #nextButton {
-            font-size: 32px;
-            bottom: 47%;
-            left: 68%;
-        }
-        
-        #restartButton {
-            font-size: 30px;
-            bottom: 43%;
-            left: 48%;
-        }
-
-        #startButton {
-            font-size: 30px;
-            bottom: 43%;
-            left: 48%;
-        }
     }
 }
