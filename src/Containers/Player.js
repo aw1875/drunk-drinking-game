@@ -6,6 +6,7 @@ class Player extends React.Component {
         this.state = {
             name: this.props.name,
             location: this.props.location,
+            length: this.props.length,
             turn: this.props.turn
         }
     }
@@ -13,7 +14,8 @@ class Player extends React.Component {
     render() {
         return (
             <div className="player">
-                {this.state.turn === true ? <p>OK</p> : <p id="playerName">{this.props.name}</p>}
+                <p id="playerName">{this.props.name} - {this.props.location}/{this.props.length}</p>
+                {/* {this.state.turn === true ? <p>OK</p> : <p id="playerName">{this.props.name}</p>} */}
             </div>
         )
     }

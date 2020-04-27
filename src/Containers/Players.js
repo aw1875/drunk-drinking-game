@@ -41,7 +41,7 @@ class Players extends React.Component {
                     <button type="submit">Add Player</button>
                 </form>
                 {this.props.data.players.map(player => (
-                    <Player name={player.name} location={player.location} turn={player.turn}/>
+                    <Player name={player.name} location={player.location} turn={player.turn} length={this.props.data.length}/>
                 ))}   
             </div>
         )

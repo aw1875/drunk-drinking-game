@@ -17,8 +17,8 @@ class Card extends React.Component{
         }
     }
 
-    ruleVisible() {
-        
+    getRule(card) {
+        return (this.card.rule)
     }
 
     render() {

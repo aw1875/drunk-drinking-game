@@ -13,7 +13,7 @@ import 'react-dice-complete/dist/react-dice-complete.css'
 
 // Component Imports
 import StartGame from './StartGame'
-import Locations from './Locations'
+import Rules from './Rules'
 import Players from './Players'
 import Card from './Card'
 import cardsData from '../data/cardsData'
@@ -30,7 +30,8 @@ class MainContent extends React.Component {
             count: 0,
             players: [],
             currentRole: 0,
-            currentPlayer: ""
+            currentPlayer: "",
+            currentRule: ""
         }
 
         // Bind functions
@@ -118,7 +119,7 @@ class MainContent extends React.Component {
         return (
             <div>
                 {/* Create Player Components based on players state list */}
-                <Players data={{getPlayers: this.getPlayers.bind(this), players: this.state.players}} />
+                <Players data={{getPlayers: this.getPlayers.bind(this), players: this.state.players, length: cardsComponents.length}} />
                 
                 {/* Create a label for who's turn it is if there is a value set (once the game is started) */}
                 {this.state.currentPlayer !== "" && this.state.currentRole < cardsComponents.length ? <div className="currentName"><h1>It's {this.state.currentPlayer}'s turn</h1></div> : null}
@@ -131,8 +132,8 @@ class MainContent extends React.Component {
                     {/* Instantiate a die from ReactDie if game has started */}
                     {this.state.currentRole < cardsComponents.length && this.state.currentPlayer !== "" ? <div id="die"><ReactDice numDice={1} outline={true} outlineColor={"#000"} faceColor={"#fff"} dotColor={"#000"} dieSize={100} rollTime={1} rollDone={this.rollDoneCallback} ref={dice => this.reactDice = dice} /></div> : null}                 
                 </div>
-
-                <Locations players={this.state.players} length={cardsComponents.length} />
+                
+                {this.state.currentRole !== 0 ? <Rules currentRule={cardsComponents[this.state.currentRole].props.rule} /> : null}
                 
                 {/* Next Button. Show only once the game starts and remove once one user makes it to the of the game. At that point create a GameOver Component and display it. */}
                 {this.state.currentRole < cardsComponents.length ? this.state.currentPlayer !== "" ? <a id="nextButton" onClick={this.toggleTurn}>{next}</a> : null : <GameOver image="./img/game-over.png" text="Game Over" currentPlayer={this.state.currentPlayer}/>}    
