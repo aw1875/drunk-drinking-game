@@ -133,7 +133,7 @@ class MainContent extends React.Component {
                     {this.state.currentRole < cardsComponents.length && this.state.currentPlayer !== "" ? <div id="die"><ReactDice numDice={1} outline={true} outlineColor={"#000"} faceColor={"#fff"} dotColor={"#000"} dieSize={100} rollTime={1} rollDone={this.rollDoneCallback} ref={dice => this.reactDice = dice} /></div> : null}                 
                 </div>
                 
-                {this.state.currentRole !== 0 ? <Rules currentRule={cardsComponents[this.state.currentRole].props.rule} /> : null}
+                {this.state.currentRole !== 0 && this.state.currentRole < cardsComponents.length? <Rules currentRule={cardsComponents[this.state.currentRole].props.rule} /> : null}
                 
                 {/* Next Button. Show only once the game starts and remove once one user makes it to the of the game. At that point create a GameOver Component and display it. */}
                 {this.state.currentRole < cardsComponents.length ? this.state.currentPlayer !== "" ? <a id="nextButton" onClick={this.toggleTurn}>{next}</a> : null : <GameOver image="./img/game-over.png" text="Game Over" currentPlayer={this.state.currentPlayer}/>}    
