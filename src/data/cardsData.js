@@ -102,12 +102,12 @@ const cardsData = [
     {
         text: "You're a bitch if you haven't",
         rule: "You say something you've done. If someone hasn't done it, they drink 2 times.",
-        image: "./img/bitch if you havent.png"
+        image: "./img/bitch-if-you-havent.png"
     },     
     {
         text: "Animal Sounds",
         rule: "You make animal sounds for a whole round whenever you want to talk.",
-        image: "./img/animal sounds.png"
+        image: "./img/animal-sounds.png"
     }, 
     {
         text: "Athletes",
@@ -117,12 +117,12 @@ const cardsData = [
     {
         text: "Blue Eyes",
         rule: "Blue eyes take a sip!",
-        image: "./img/blue eyes.png"
+        image: "./img/blue-eyes.png"
     }, 
     {
         text: "Brown Eyes",
         rule: "Brown eyes take a sip!",
-        image: "./img/brown eyes.png"
+        image: "./img/brown-eyes.png"
     }, 
     {
         text: "Categories",
@@ -147,12 +147,12 @@ const cardsData = [
     {
         text: "Drunk call an ex",
         rule: "Make sure it's on speakerphone!",
-        image: "./img/drunk call ex.png"
+        image: "./img/drunk-call-ex.png"
     }, 
     {
         text: "Drunk story",
         rule: "Post a story on your snapchat or instagram. If you're not drunk yet you must pretend to be blackout drunk. If you are drunk have some fun!",
-        image: "./img/drunk story.png"
+        image: "./img/drunk-story.png"
     }, 
     {
         text: "Snapchat Roulette",
@@ -167,7 +167,7 @@ const cardsData = [
     {
         text: "Green Eyes",
         rule: "Green eyes take a sip!",
-        image: "./img/green eyes.png"
+        image: "./img/green-eyes.png"
     }, 
     {
         text: "Highest score drink x5",
@@ -177,7 +177,7 @@ const cardsData = [
     {
         text: "Most likely to",
         rule: "You make it up. Everyone votes. Whoever it is must drink 3 times.",
-        image: "./img/most likely to.png"
+        image: "./img/most-likely-to.png"
     }, 
     {
         text: "Least drunk",
@@ -187,7 +187,7 @@ const cardsData = [
     {
         text: "Nose Goes",
         rule: "Last person to touch their nose drinks 2 times",
-        image: "./img/Nose Goes.png"
+        image: "./img/nose-goes.png"
     },
     {
         text: "Piercings",
@@ -197,12 +197,12 @@ const cardsData = [
     {
         text: "Roll Again",
         rule: "Lucky you! Go again.",
-        image: "./img/roll again.png"
+        image: "./img/roll-again.png"
     }, 
     {
         text: "Sex Charades",
         rule: "Act out your favourite sex position.",
-        image: "./img/sex charades.png"
+        image: "./img/sex-charades.png"
     }, 
     {
         text: "Single!",
@@ -232,7 +232,7 @@ const cardsData = [
     {
         text: "Two truths and a lie",
         rule: "Say two truths and one lie about yourself. Everyone else must guess the lie. Whoever gets it wrong drinks!",
-        image: "./img/two truths.png"
+        image: "./img/two-truths.png"
     }, 
     {
         text: "Waterfall",
@@ -242,12 +242,12 @@ const cardsData = [
     {
         text: "Would you rather?",
         rule: "You ask whoever you would like. They must answer, if they can't they have to finish a full drink.",
-        image: "./img/would you rather.png"
+        image: "./img/would-you-rather.png"
     }, 
     {
         text: "Youngest and oldest drink",
         rule: "Youngest and oldest players take a sip each.",
-        image: "./img/youngest and oldest.png"
+        image: "./img/youngest-and-oldest.png"
     },
     {
         text: "Shot!",
@@ -352,12 +352,12 @@ const cardsData = [
     {
         text: "You're a bitch if you haven't",
         rule: "You say something you've done. If someone hasn't done it, they drink 2 times.",
-        image: "./img/bitch if you havent.png"
+        image: "./img/bitch-if-you-havent.png"
     },     
     {
         text: "Animal Sounds",
         rule: "You make animal sounds for a whole round whenever you want to talk.",
-        image: "./img/animal sounds.png"
+        image: "./img/animal-sounds.png"
     }, 
     {
         text: "Athletes",
@@ -367,12 +367,12 @@ const cardsData = [
     {
         text: "Blue Eyes",
         rule: "Blue eyes take a sip!",
-        image: "./img/blue eyes.png"
+        image: "./img/blue-eyes.png"
     }, 
     {
         text: "Brown Eyes",
         rule: "Brown eyes take a sip!",
-        image: "./img/brown eyes.png"
+        image: "./img/brown-eyes.png"
     }, 
     {
         text: "Categories",
@@ -397,12 +397,12 @@ const cardsData = [
     {
         text: "Drunk call an ex",
         rule: "Make sure it's on speakerphone!",
-        image: "./img/drunk call ex.png"
+        image: "./img/drunk-call-ex.png"
     }, 
     {
         text: "Drunk story",
         rule: "Post a story on your snapchat or instagram. If you're not drunk yet you must pretend to be blackout drunk. If you are drunk have some fun!",
-        image: "./img/drunk story.png"
+        image: "./img/drunk-story.png"
     }, 
     {
         text: "Snapchat Roulette",
@@ -417,7 +417,7 @@ const cardsData = [
     {
         text: "Green Eyes",
         rule: "Green eyes take a sip!",
-        image: "./img/green eyes.png"
+        image: "./img/green-eyes.png"
     }, 
     {
         text: "Highest score drink x5",
@@ -427,7 +427,7 @@ const cardsData = [
     {
         text: "Most likely to",
         rule: "You make it up. Everyone votes. Whoever it is must drink 3 times.",
-        image: "./img/most likely to.png"
+        image: "./img/most-likely-to.png"
     }, 
     {
         text: "Least drunk",
@@ -437,7 +437,7 @@ const cardsData = [
     {
         text: "Nose Goes",
         rule: "Last person to touch their nose drinks 2 times",
-        image: "./img/Nose Goes.png"
+        image: "./img/nose-goes.png"
     },
     {
         text: "Piercings",
@@ -447,12 +447,12 @@ const cardsData = [
     {
         text: "Roll Again",
         rule: "Lucky you! Go again.",
-        image: "./img/roll again.png"
+        image: "./img/roll-again.png"
     }, 
     {
         text: "Sex Charades",
         rule: "Act out your favourite sex position.",
-        image: "./img/sex charades.png"
+        image: "./img/sex-charades.png"
     }, 
     {
         text: "Single!",
@@ -482,7 +482,7 @@ const cardsData = [
     {
         text: "Two truths and a lie",
         rule: "Say two truths and one lie about yourself. Everyone else must guess the lie. Whoever gets it wrong drinks!",
-        image: "./img/two truths.png"
+        image: "./img/two-truths.png"
     }, 
     {
         text: "Waterfall",
@@ -492,12 +492,12 @@ const cardsData = [
     {
         text: "Would you rather?",
         rule: "You ask whoever you would like. They must answer, if they can't they have to finish a full drink.",
-        image: "./img/would you rather.png"
+        image: "./img/would-you-rather.png"
     }, 
     {
         text: "Youngest and oldest drink",
         rule: "Youngest and oldest players take a sip each.",
-        image: "./img/youngest and oldest.png"
+        image: "./img/youngest-and-oldest.png"
     },
     
 ]
