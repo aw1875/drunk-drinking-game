@@ -15,3 +15,11 @@ $ npm start
 ```
 
 That's it, a localhost tab should open up on port 3000 and you're good to play! Grab your friends, hop in a call together, and enjoy!
+
+### **Future Improvements:**
+ 1. [ ] Create backend 
+ 2. [ ] Allow user to create a game lobby
+ 3. [ ] Generate random address for created lobbies
+ 4. [ ] Allow users to join game lobbies from generated link
+ 5. [ ] Run game in real-time for all users in the lobby
+
