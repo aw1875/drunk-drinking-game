@@ -1,0 +1,109 @@
+.create {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.copied {
+    position: absolute;
+    left: calc(50% - 25vw);
+    top: calc(50% - 25vh);
+    width: 50vw;
+    height: 50vh;
+    z-index: 999;
+    background: rgba(60, 145, 230, 0.95);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.copied p {
+    position: relative;
+    top: calc(50% - 10px);
+    background: transparent;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.game-link {
+    /* max-width: 700px;
+    margin: auto auto auto auto; */
+    position: absolute;
+    left: calc(50% - 25vw);
+    top: calc(50% - 12.5vh);
+    width: 100px;
+    height: 25vh;
+    text-align: center;
+}
+
+.game-link input[type=text] {
+    position: relative;
+    height: 50px;
+    width: 50vw;
+    background: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.game-link input[type=submit] {
+    width: 50vw;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    background: #3C91E6;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.game-link input[type=submit]:hover {
+    cursor: pointer;
+    background: #22d1ee;
+    transition: 0.5s all;
+}
+
+#to-game {
+    background: #3C91E6;
+    border-radius: 5px 5px 0 0;
+}
+
+#copy-btn {
+    background: #3C91E6;
+    border-radius: 0 0 5px 5px;
+    margin-top: -8px;
+}
+
+#game-disabled {
+    background: rgb(126, 176, 226);
+    border-radius: 5px 5px 0 0;
+}
+
+#copy-disabled {
+    background: rgb(126, 176, 226);
+    border-radius: 0 0 5px 5px;
+    margin-top: -8px;
+}
+
+#game-disabled:hover,
+#copy-disabled:hover {
+    cursor: default;
+}
+
+#to-game:hover,
+#copy-btn:hover {
+    cursor: pointer;
+    background: #22d1ee;
+    transition: 0.5s all;
+}
