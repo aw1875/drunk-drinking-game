@@ -5,8 +5,11 @@ After seeing many people posting pictures of their drinking game boards on socia
 ## **Installation**
 [NodeJS](https://nodejs.org/en/download/) is all that is required.
 
-Start with running:
+To install the required packages run:
 ```sh
+$ cd client
+$ npm i
+$ cd ../server
 $ npm i
 ```
 That should get all the node modules installed, this could take some time so go grab a drink or a snack. Once that finishes all you need to do is start the server. To do that, just run:
@@ -17,7 +20,7 @@ $ npm start
 That's it, a localhost tab should open up on port 3000 and you're good to play! Grab your friends, hop in a call together, and enjoy!
 
 ### **Future Improvements:**
- 1. [ ] Create backend 
+ 1. [x] Create backend 
  2. [ ] Allow user to create a game lobby
  3. [ ] Generate random address for created lobbies
  4. [ ] Allow users to join game lobbies from generated link
