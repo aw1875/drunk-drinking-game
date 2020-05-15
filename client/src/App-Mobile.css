@@ -1,0 +1,257 @@
+@media only screen and (max-width: 950px) {
+
+    @import url('https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,600,700,800&display=swap');
+
+    * {
+        background: #342E37;
+        margin: 0;
+        padding: 0;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+    }
+
+    .main {
+        /* position: absolute; */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; */
+    }
+
+    .mainContent {
+        width: 90vw;
+        position: relative;
+        left: 5%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 3px 4px rgb(31, 31, 31);
+    }
+
+    .currentName {
+        position: relative;
+        width: 100%;
+        background: transparent;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .currentName h1 {
+        background: transparent;
+        font-family: 'Manrope', sans-serif;
+        color: #FA824C;
+    }
+
+    #cardTitle {
+        position: relative;
+        top: 50%;
+    }
+
+    #cardImage {
+        opacity: 1;
+        width: 100%;
+    }
+
+    #nextButton {
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+        background: transparent;
+    }
+
+    #restartButton {
+        font-size: 50px;
+        color: #fff;
+        position: relative;
+        bottom: 35%;
+        left: 49%;
+        background: transparent;
+    }
+
+    #startButton {
+        font-size: 84px;
+        color:  #3C91E6;
+        position: absolute;
+        top: 30%;
+        right: 40%;
+        background: transparent;
+    }
+
+    #nextButton svg,
+    #restartButton svg,
+    #startButton svg {
+        background: transparent;
+    }
+
+    #nextButton:hover,
+    #restartButton:hover,
+    #startButton:hover {
+        transition: 0.5s all;
+        cursor: pointer;
+        color: #FA824C;
+    }
+
+    .players {
+        min-height: 200px;
+        width: 90vw;
+        text-align: center;
+        position: relative;
+        left: 5%;
+        /* display: flex; */
+        margin-bottom: 20px;
+        border-radius: 15px;
+        /* margin-left: 10px; */
+        background: #FA824C;
+    }
+
+    .rulesDiv {
+        min-height: 200px;
+        width: 90vw;
+        text-align: center;
+        position: relative;
+        left: 5%;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        background: rgb(124, 167, 25);
+    }
+
+
+    .players h1 {
+        margin: 50px 0px 10px 0px;
+        color: #FAFFFD;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+        background: transparent;
+    }
+
+    .rulesDiv h1 {
+        margin: 50px 0px 10px 0px;
+        color: #FAFFFD;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+        background: transparent;
+    }
+
+    .rulesDiv .rules {
+        background: transparent;
+    }
+
+    .rulesDiv .rules p {
+        background: transparent;
+        color: #fff;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .players form {
+        background: transparent;
+    }
+
+    .players input, .locations input {
+        /* width: 100%;
+        padding: 10px;
+        margin: 5px 0px 5px 0px;
+        outline: none; */
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        width: 90%;
+        margin: 5px 0px;
+        padding: 0px 10px;
+        border-radius: 5px;
+        /* padding: 20px; */
+        height: 50px;
+        border: none;
+        outline: none;
+        background: #fff;
+    }
+
+    .players button, .locations button {
+        /* width: 100%;
+        padding: 10px;
+        margin: 5px 0px 5px 0px;
+        outline: none; */
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        width: 90%;
+        margin: 5px 0px;
+        border-radius: 5px;
+        /* padding: 20px; */
+        height: 50px;
+        border: none;
+        outline: none;
+        background: #3C91E6;
+    }
+    .players button:hover {
+        cursor: pointer;
+        transition: 0.5s all;
+        background: #22d1ee;
+    }
+
+    #playerName, #playerLocation {
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        background: transparent;
+        line-height: 2;
+    }
+
+    .player {
+        margin: 0;
+        background: transparent;
+        height: 50px;
+        width: 100%;
+        /* margin-bottom: 2px; */
+    }
+
+    .dieContainer {
+        width: 100%;
+        background: transparent;
+        text-align: center;
+    }
+
+    #die {
+        /* position: relative;
+        left: 38%;
+        bottom: 4%; */
+        background: transparent;
+    }
+
+    .gameOverMessage {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        background: transparent;
+        text-align: center;
+        /* margin-top: 100px; */
+        /* background: red; */
+    }
+
+    .gameOverMessage h1 {
+        background: transparent;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+        color: #FA824C;
+    }
+}
